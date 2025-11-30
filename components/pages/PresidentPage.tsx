@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, ShieldCheck, Globe } from 'lucide-react';
+import { ShieldCheck, Globe } from 'lucide-react';
 
 const PresidentPage: React.FC = () => {
   return (
