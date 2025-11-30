@@ -25,9 +25,9 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="space-y-4 md:text-right">
              <h5 className="text-white font-bold border-b border-white/10 pb-2">Plan du Site</h5>
              <ul className="space-y-2">
-               <li><button onClick={() => onNavigate('president')} className="hover:text-white transition-colors">&gt; Le Président</button></li>
-               <li><button onClick={() => onNavigate('ministries')} className="hover:text-white transition-colors">&gt; Ministères</button></li>
-               <li><button onClick={() => onNavigate('news')} className="hover:text-white transition-colors">&gt; Rapports</button></li>
+               <li><button onClick={() => onNavigate('president')} className="hover:text-white transition-colors">{'>'} Le Président</button></li>
+               <li><button onClick={() => onNavigate('ministries')} className="hover:text-white transition-colors">{'>'} Ministères</button></li>
+               <li><button onClick={() => onNavigate('news')} className="hover:text-white transition-colors">{'>'} Rapports</button></li>
              </ul>
           </div>
 
