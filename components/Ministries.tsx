@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Shield, Radio, Globe, User, X, ChevronRight, Scale, Zap, Target } from 'lucide-react';
+import { Shield, Globe, User, X, Target } from 'lucide-react';
 import { Minister } from '../types';
 
 interface MinistriesProps {
